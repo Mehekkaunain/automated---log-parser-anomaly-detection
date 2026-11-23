@@ -1,0 +1,130 @@
+2026-11-23 08:00:25 - IP: 192.168.1.10 - USER: alice - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:00:53 - IP: 192.168.1.15 - USER: bob - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:01:24 - IP: 192.168.1.22 - USER: charlie - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:01:58 - IP: 192.168.1.35 - USER: david - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:02:35 - IP: 10.0.0.50 - USER: emma - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:03:15 - IP: 10.0.0.55 - USER: frank - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:03:58 - IP: 172.16.10.12 - USER: grace - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:04:44 - IP: 192.168.1.10 - USER: hannah - STATUS: FAILED - MSG: Password typo by legitimate user
+2026-11-23 08:04:59 - IP: 192.168.1.10 - USER: hannah - STATUS: SUCCESS - MSG: User authenticated successfully
+2026-11-23 08:05:48 - IP: 192.168.1.15 - USER: ian - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:06:40 - IP: 192.168.1.22 - USER: jack - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:07:35 - IP: 192.168.1.35 - USER: alice - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:08:33 - IP: 10.0.0.50 - USER: bob - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:09:34 - IP: 10.0.0.55 - USER: charlie - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:10:38 - IP: 172.16.10.12 - USER: david - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:11:45 - IP: 192.168.1.10 - USER: emma - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:12:10 - IP: 192.168.1.15 - USER: frank - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:12:38 - IP: 192.168.1.22 - USER: grace - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:13:09 - IP: 192.168.1.35 - USER: hannah - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:13:43 - IP: 10.0.0.50 - USER: ian - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:14:20 - IP: 10.0.0.55 - USER: jack - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:15:00 - IP: 172.16.10.12 - USER: alice - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:15:43 - IP: 192.168.1.10 - USER: bob - STATUS: FAILED - MSG: Password typo by legitimate user
+2026-11-23 08:15:58 - IP: 192.168.1.10 - USER: bob - STATUS: SUCCESS - MSG: User authenticated successfully
+2026-11-23 08:16:44 - IP: 192.168.1.15 - USER: charlie - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:17:33 - IP: 192.168.1.22 - USER: david - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:18:25 - IP: 192.168.1.35 - USER: emma - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:19:20 - IP: 10.0.0.50 - USER: frank - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:20:18 - IP: 10.0.0.55 - USER: grace - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:21:19 - IP: 172.16.10.12 - USER: hannah - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:22:23 - IP: 192.168.1.10 - USER: ian - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:23:30 - IP: 192.168.1.15 - USER: jack - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:23:55 - IP: 192.168.1.22 - USER: alice - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:24:23 - IP: 192.168.1.35 - USER: bob - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:24:54 - IP: 10.0.0.50 - USER: charlie - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:25:28 - IP: 10.0.0.55 - USER: david - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:26:05 - IP: 172.16.10.12 - USER: emma - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:31:23 - IP: 198.51.100.23 - USER: admin - STATUS: FAILED - MSG: Brute force attempt 1 - invalid password
+2026-11-23 08:31:41 - IP: 198.51.100.23 - USER: admin - STATUS: FAILED - MSG: Brute force attempt 2 - invalid password
+2026-11-23 08:31:59 - IP: 198.51.100.23 - USER: admin - STATUS: FAILED - MSG: Brute force attempt 3 - invalid password
+2026-11-23 08:32:17 - IP: 198.51.100.23 - USER: admin - STATUS: FAILED - MSG: Brute force attempt 4 - invalid password
+2026-11-23 08:32:35 - IP: 198.51.100.23 - USER: admin - STATUS: FAILED - MSG: Brute force attempt 5 - invalid password
+2026-11-23 08:32:53 - IP: 198.51.100.23 - USER: admin - STATUS: FAILED - MSG: Brute force attempt 6 - invalid password
+2026-11-23 08:33:23 - IP: 192.168.1.22 - USER: david - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:33:58 - IP: 192.168.1.35 - USER: emma - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:34:38 - IP: 10.0.0.50 - USER: frank - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:35:23 - IP: 10.0.0.55 - USER: grace - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:36:13 - IP: 172.16.10.12 - USER: hannah - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:37:08 - IP: 192.168.1.10 - USER: ian - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:38:08 - IP: 192.168.1.15 - USER: jack - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:39:13 - IP: 192.168.1.22 - USER: alice - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:40:23 - IP: 192.168.1.35 - USER: bob - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:41:38 - IP: 10.0.0.50 - USER: charlie - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:42:58 - IP: 10.0.0.55 - USER: david - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:44:23 - IP: 172.16.10.12 - USER: emma - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:44:53 - IP: 192.168.1.10 - USER: frank - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:45:28 - IP: 192.168.1.15 - USER: grace - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:46:08 - IP: 192.168.1.22 - USER: hannah - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:46:53 - IP: 192.168.1.35 - USER: ian - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:47:43 - IP: 10.0.0.50 - USER: jack - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:48:38 - IP: 10.0.0.55 - USER: alice - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:51:38 - IP: 203.0.113.195 - USER: guest - STATUS: FAILED - MSG: Connection from flagged suspicious IP
+2026-11-23 08:51:58 - IP: 203.0.113.195 - USER: support - STATUS: FAILED - MSG: Connection from flagged suspicious IP
+2026-11-23 08:52:28 - IP: 203.0.113.195 - USER: service_acc - STATUS: FAILED - MSG: Access denied for flagged host
+2026-11-23 08:54:28 - IP: 198.51.100.77 - USER: emma - STATUS: FAILED - MSG: Untrusted proxy connection attempt
+2026-11-23 08:54:43 - IP: 198.51.100.77 - USER: emma - STATUS: SUCCESS - MSG: Suspicious proxy login succeeded
+2026-11-23 08:55:18 - IP: 192.168.1.15 - USER: frank - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:56:00 - IP: 192.168.1.22 - USER: grace - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:56:49 - IP: 192.168.1.35 - USER: hannah - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:57:45 - IP: 10.0.0.50 - USER: ian - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:58:48 - IP: 10.0.0.55 - USER: jack - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 08:59:58 - IP: 172.16.10.12 - USER: alice - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:01:15 - IP: 192.168.1.10 - USER: bob - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:02:39 - IP: 192.168.1.15 - USER: charlie - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:03:20 - IP: 192.168.1.22 - USER: david - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:04:08 - IP: 192.168.1.35 - USER: emma - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:05:03 - IP: 10.0.0.50 - USER: frank - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:06:05 - IP: 10.0.0.55 - USER: grace - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:07:14 - IP: 172.16.10.12 - USER: hannah - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:08:30 - IP: 192.168.1.10 - USER: ian - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:09:53 - IP: 192.168.1.15 - USER: jack - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:10:33 - IP: 192.168.1.22 - USER: alice - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:11:20 - IP: 192.168.1.35 - USER: bob - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:12:14 - IP: 10.0.0.50 - USER: charlie - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:13:15 - IP: 10.0.0.55 - USER: david - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:14:23 - IP: 172.16.10.12 - USER: emma - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:18:48 - IP: 185.220.101.5 - USER: finance_lead - STATUS: FAILED - MSG: Credential stuffing attempt 1
+2026-11-23 09:19:13 - IP: 185.220.101.5 - USER: finance_lead - STATUS: FAILED - MSG: Credential stuffing attempt 2
+2026-11-23 09:19:38 - IP: 185.220.101.5 - USER: finance_lead - STATUS: FAILED - MSG: Credential stuffing attempt 3
+2026-11-23 09:20:03 - IP: 185.220.101.5 - USER: finance_lead - STATUS: FAILED - MSG: Credential stuffing attempt 4
+2026-11-23 09:20:23 - IP: 185.220.101.5 - USER: finance_lead - STATUS: SUCCESS - MSG: CRITICAL: Successful login after multiple failures
+2026-11-23 09:21:03 - IP: 192.168.1.10 - USER: alice - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:21:47 - IP: 192.168.1.15 - USER: bob - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:22:35 - IP: 192.168.1.22 - USER: charlie - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:23:27 - IP: 192.168.1.35 - USER: david - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:24:23 - IP: 10.0.0.50 - USER: emma - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:25:23 - IP: 10.0.0.55 - USER: frank - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:26:27 - IP: 172.16.10.12 - USER: grace - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:27:35 - IP: 192.168.1.10 - USER: hannah - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:28:47 - IP: 192.168.1.15 - USER: ian - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:30:03 - IP: 192.168.1.22 - USER: jack - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:31:23 - IP: 192.168.1.35 - USER: alice - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:32:47 - IP: 10.0.0.50 - USER: bob - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:33:30 - IP: 10.0.0.55 - USER: charlie - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:34:17 - IP: 172.16.10.12 - USER: david - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:35:08 - IP: 192.168.1.10 - USER: emma - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:35:20 - IP: 45.33.32.156 - USER: admin' OR '1'='1 - STATUS: FAILED - MSG: Invalid username pattern detected: SQL injection auth bypass probe
+2026-11-23 09:35:32 - IP: 45.33.32.156 - USER: admin'-- - STATUS: FAILED - MSG: Invalid username pattern detected: SQL injection comment evasion probe
+2026-11-23 09:35:44 - IP: 45.33.32.156 - USER: <script>alert(1)</script> - STATUS: FAILED - MSG: Invalid username pattern detected: XSS script payload injected into username field
+2026-11-23 09:35:56 - IP: 45.33.32.156 - USER: ../../etc/passwd - STATUS: FAILED - MSG: Invalid username pattern detected: Directory traversal probe in username field
+2026-11-23 09:36:08 - IP: 45.33.32.156 - USER: root;id - STATUS: FAILED - MSG: Invalid username pattern detected: Command injection delimiter probe
+2026-11-23 09:36:20 - IP: 45.33.32.156 - USER: user!#$% - STATUS: FAILED - MSG: Invalid username pattern detected: Special illegal character sequence in username
+2026-11-23 09:37:05 - IP: 10.0.0.50 - USER: charlie - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:37:56 - IP: 10.0.0.55 - USER: david - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:38:53 - IP: 172.16.10.12 - USER: emma - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:39:56 - IP: 192.168.1.10 - USER: frank - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:41:05 - IP: 192.168.1.15 - USER: grace - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:42:20 - IP: 192.168.1.22 - USER: hannah - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:43:41 - IP: 192.168.1.35 - USER: ian - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:45:08 - IP: 10.0.0.50 - USER: jack - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:46:41 - IP: 10.0.0.55 - USER: alice - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:48:20 - IP: 172.16.10.12 - USER: bob - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:49:10 - IP: 192.168.1.10 - USER: charlie - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:50:06 - IP: 192.168.1.15 - USER: david - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:51:08 - IP: 192.168.1.22 - USER: emma - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:52:16 - IP: 192.168.1.35 - USER: frank - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:53:30 - IP: 10.0.0.50 - USER: grace - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:54:50 - IP: 10.0.0.55 - USER: hannah - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:56:16 - IP: 172.16.10.12 - USER: ian - STATUS: SUCCESS - MSG: Authentication successful
+2026-11-23 09:57:48 - IP: 192.168.1.10 - USER: jack - STATUS: SUCCESS - MSG: Authentication successful

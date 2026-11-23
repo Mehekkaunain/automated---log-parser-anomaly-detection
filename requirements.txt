@@ -1,0 +1,6 @@
+# Automated Log Parser for Anomalous Login Detection
+# Core and optional visualization dependencies
+
+pandas>=2.0.0
+matplotlib>=3.7.0
+ipykernel>=6.0.0

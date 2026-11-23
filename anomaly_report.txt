@@ -1,0 +1,124 @@
+==============================================================================
+       AUTOMATED LOG PARSER - ANOMALOUS LOGIN DETECTION REPORT
+       Generated on: 2026-11-23 18:47:07
+==============================================================================
+
+1. EXECUTIVE SUMMARY
+------------------------------------------------------------------------------
+  Total Log Records Analyzed    : 130
+  Successful Logins             : 108 (83.1%)
+  Failed Logins                 : 22 (16.9%)
+  Total Security Anomalies Found: 15
+
+2. SECURITY ANOMALIES BREAKDOWN
+------------------------------------------------------------------------------
+  [A] Brute Force Incidents (>3 failures in window)    : 3
+  [B] Known Suspicious IP Contacts                     : 5
+  [C] Account Takeovers (Repeated Fails -> Success)    : 1
+  [D] Invalid / Malicious Username Probes              : 6
+
+3. DETAILED ANOMALY FINDINGS
+------------------------------------------------------------------------------
+>>> [A] BRUTE FORCE ATTACKS:
+  1. Source IP    : 198.51.100.23
+     Target User(s): admin
+     Failed Attempts: 6
+     Time Window   : 2026-11-23 08:31:23 to 2026-11-23 08:32:53
+     Details       : Detected 6 rapid failed login attempts from IP 198.51.100.23 within 5 minutes targeting user(s): admin.
+
+  2. Source IP    : 185.220.101.5
+     Target User(s): finance_lead
+     Failed Attempts: 4
+     Time Window   : 2026-11-23 09:18:48 to 2026-11-23 09:20:03
+     Details       : Detected 4 rapid failed login attempts from IP 185.220.101.5 within 5 minutes targeting user(s): finance_lead.
+
+  3. Source IP    : 45.33.32.156
+     Target User(s): ../../etc/passwd, <script>alert(1)</script>, admin' OR '1'='1, admin'--, root;id, user!#$%
+     Failed Attempts: 6
+     Time Window   : 2026-11-23 09:35:20 to 2026-11-23 09:36:20
+     Details       : Detected 6 rapid failed login attempts from IP 45.33.32.156 within 5 minutes targeting user(s): ../../etc/passwd, <script>alert(1)</script>, admin' OR '1'='1, admin'--, root;id, user!#$%.
+
+>>> [B] LOGINS FROM SUSPICIOUS / BLACKLISTED IPs:
+  1. Timestamp : 2026-11-23 08:51:38
+     IP Address: 203.0.113.195 (Known Botnet Command & Control (C2) node)
+     User / Status: guest [FAILED]
+     Details   : Login activity observed from blacklisted IP 203.0.113.195 (Known Botnet Command & Control (C2) node) for user 'guest' with status FAILED.
+
+  2. Timestamp : 2026-11-23 08:51:58
+     IP Address: 203.0.113.195 (Known Botnet Command & Control (C2) node)
+     User / Status: support [FAILED]
+     Details   : Login activity observed from blacklisted IP 203.0.113.195 (Known Botnet Command & Control (C2) node) for user 'support' with status FAILED.
+
+  3. Timestamp : 2026-11-23 08:52:28
+     IP Address: 203.0.113.195 (Known Botnet Command & Control (C2) node)
+     User / Status: service_acc [FAILED]
+     Details   : Login activity observed from blacklisted IP 203.0.113.195 (Known Botnet Command & Control (C2) node) for user 'service_acc' with status FAILED.
+
+  4. Timestamp : 2026-11-23 08:54:28
+     IP Address: 198.51.100.77 (High-risk anonymous Tor exit proxy)
+     User / Status: emma [FAILED]
+     Details   : Login activity observed from blacklisted IP 198.51.100.77 (High-risk anonymous Tor exit proxy) for user 'emma' with status FAILED.
+
+  5. Timestamp : 2026-11-23 08:54:43
+     IP Address: 198.51.100.77 (High-risk anonymous Tor exit proxy)
+     User / Status: emma [SUCCESS]
+     Details   : Login activity observed from blacklisted IP 198.51.100.77 (High-risk anonymous Tor exit proxy) for user 'emma' with status SUCCESS.
+
+>>> [C] ACCOUNT TAKEOVER / CREDENTIAL STUFFING (FAILS FOLLOWED BY SUCCESS):
+  1. Compromised Account: finance_lead
+     Attacker IP        : 185.220.101.5
+     Preceding Failures : 4
+     Breach Timestamp   : 2026-11-23 09:20:23
+     Details            : Account Takeover Alert: 4 failed login attempts for user 'finance_lead' from IP 185.220.101.5 followed immediately by a SUCCESS at 2026-11-23 09:20:23.
+
+>>> [D] MALICIOUS / INJECTION USERNAME PROBES:
+  1. Timestamp: 2026-11-23 09:35:20 | IP: 45.33.32.156
+     Injected Value: admin' OR '1'='1
+     Threat Type   : Potential SQL Injection
+
+  2. Timestamp: 2026-11-23 09:35:32 | IP: 45.33.32.156
+     Injected Value: admin'--
+     Threat Type   : Potential SQL Injection
+
+  3. Timestamp: 2026-11-23 09:35:44 | IP: 45.33.32.156
+     Injected Value: <script>alert(1)</script>
+     Threat Type   : Cross-Site Scripting (XSS) probe
+
+  4. Timestamp: 2026-11-23 09:35:56 | IP: 45.33.32.156
+     Injected Value: ../../etc/passwd
+     Threat Type   : Directory Traversal probe
+
+  5. Timestamp: 2026-11-23 09:36:08 | IP: 45.33.32.156
+     Injected Value: root;id
+     Threat Type   : Command Injection delimiter
+
+  6. Timestamp: 2026-11-23 09:36:20 | IP: 45.33.32.156
+     Injected Value: user!#$%
+     Threat Type   : Non-standard / illegal character sequence
+
+4. TOP TRAFFIC STATISTICS
+------------------------------------------------------------------------------
+  Top 5 Source IP Addresses (Total Activity):
+    - 192.168.1.10      : 17 requests
+    - 10.0.0.50         : 16 requests
+    - 10.0.0.55         : 16 requests
+    - 192.168.1.22      : 15 requests
+    - 192.168.1.35      : 15 requests
+
+  Top 5 IP Addresses with Failed Logins:
+    - 198.51.100.23     : 6 failures
+    - 45.33.32.156      : 6 failures
+    - 185.220.101.5     : 4 failures
+    - 203.0.113.195     : 3 failures
+    - 192.168.1.10      : 2 failures
+
+  Top 5 Most Frequent User Accounts:
+    - emma              : 14 attempts
+    - david             : 12 attempts
+    - alice             : 11 attempts
+    - bob               : 11 attempts
+    - charlie           : 11 attempts
+
+==============================================================================
+                          END OF SECURITY REPORT
+==============================================================================
